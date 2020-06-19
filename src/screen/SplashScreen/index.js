@@ -4,7 +4,11 @@ import {Container, Root, Content, Text} from 'native-base';
 import colors from '../../helper/colors';
 
 const SplashScreen = ({navigation, route}) => {
-  useEffect(() => {});
+  useEffect(() => {
+    setTimeout(() => {
+      navigation.navigate('Auth');
+    }, route.params?.time);
+  });
   return (
     <Root>
       <Container>

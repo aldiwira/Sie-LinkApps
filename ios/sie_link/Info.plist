@@ -77,6 +77,9 @@
 		<string>Merriweather_Black.ttf</string>
 		<string>Merriweather_Bold.ttf</string>
 		<string>Merriweather_Regular.ttf</string>
+		<string>Merriweather_Italic.ttf</string>
+		<string>Merriweather_Light.ttf</string>
+		<string>Merriweather_LightItalic.ttf</string>
 	</array>
 </dict>
 </plist>
